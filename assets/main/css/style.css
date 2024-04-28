@@ -3,6 +3,9 @@
     margin: 0 ;
     box-sizing: border-box;
 }
+.nonen{
+    display: none;
+}
 a{
     text-decoration: none;
     color: white;
@@ -30,6 +33,67 @@ a{
 .cards:hover .spam{
     display: block;
 }
+.modal1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+  }
+  .gam{
+    color: white;
+    font-size: 30px;
+  }
+  #num{
+    font-size: 40px;
+    border: white solid 2px;
+    border-radius: 8px;
+    text-align: center;
+    width: 20%;
+  }
+  .btn1:nth-child(1){
+    font-size: 20px ;
+    /* border: none;
+    color: white;
+    background: green;
+    padding: 5px 15px;
+    color: orange;
+    border: solid 1px black;
+    border-radius: 5px; */
+  }
+  .btn1:nth-child(2){
+    font-size: 20px ;
+    /* border: none;
+    color: white;
+    background: blue;
+    padding: 5px;
+    color: orange;
+    border: solid 1px green;
+    border-radius: 5px; */
+  }
+
+  .btnss{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ; 
+    width: 60%;
+    gap: 10px;
+    transition: 1s;
+    
+    
+  }
+  .fad{
+    animation: fade 1s;
+  }
+  @keyframes fad{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
 /* .cards:hover .im{
     z-index: -1;
 } */
